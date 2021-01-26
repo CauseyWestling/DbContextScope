@@ -5,10 +5,12 @@
  * This software may be modified and distributed under the terms
  * of the MIT license.  See the LICENSE file for details.
  */
+
 using System;
 using System.Data;
+using DbContextScope.Enums;
 
-namespace EntityFrameworkCore.DbContextScope {
+namespace DbContextScope.Interfaces {
     /// <summary>
     /// Convenience methods to create a new ambient DbContextScope. This is the prefered method
     /// to create a DbContextScope.

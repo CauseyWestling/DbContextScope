@@ -1,14 +1,17 @@
-﻿/* 
+﻿/*
  * Copyright (C) 2014 Mehdi El Gueddari
  * http://mehdi.me
  *
  * This software may be modified and distributed under the terms
  * of the MIT license.  See the LICENSE file for details.
  */
+
 using System;
 using System.Data;
+using DbContextScope.Enums;
+using DbContextScope.Interfaces;
 
-namespace EntityFrameworkCore.DbContextScope {
+namespace DbContextScope.Implementations {
     public class DbContextScopeFactory : IDbContextScopeFactory {
         private readonly IDbContextFactory _dbContextFactory;
 

@@ -5,9 +5,12 @@
  * This software may be modified and distributed under the terms
  * of the MIT license.  See the LICENSE file for details.
  */
-using System.Data;
 
-namespace EntityFrameworkCore.DbContextScope {
+using System.Data;
+using DbContextScope.Enums;
+using DbContextScope.Interfaces;
+
+namespace DbContextScope.Implementations {
     public class DbContextReadOnlyScope : IDbContextReadOnlyScope {
         private DbContextScope _internalScope;
 

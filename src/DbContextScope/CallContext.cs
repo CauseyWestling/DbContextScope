@@ -1,7 +1,7 @@
 ﻿using System.Collections.Concurrent;
 using System.Threading;
 
-namespace EntityFrameworkCore.DbContextScope
+namespace DbContextScope
 {
 
     /// <summary>

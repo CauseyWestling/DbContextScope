@@ -5,9 +5,10 @@
  * This software may be modified and distributed under the terms
  * of the MIT license.  See the LICENSE file for details.
  */
+
 using System;
 
-namespace EntityFrameworkCore.DbContextScope {
+namespace DbContextScope.Implementations {
     public class AmbientContextSuppressor : IDisposable {
         private DbContextScope _savedScope;
         private bool _disposed;

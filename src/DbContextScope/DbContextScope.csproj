@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <AssemblyName>DoJo.EntityFrameworkCore.DbContextScope</AssemblyName>
+    <AssemblyName>DbContextScope</AssemblyName>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <RootNamespace>DoJo.EntityFrameworkCore.DbContextScope</RootNamespace>
+    <RootNamespace>DbContextScope</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
