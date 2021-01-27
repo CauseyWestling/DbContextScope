@@ -226,13 +226,13 @@ namespace DbContextScope.Implementations {
                 }
             }
 
-            foreach (var dbContext in _initializedDbContexts.Values) {
-                try {
-                    dbContext.Dispose();
-                } catch (Exception e) {
-                    System.Diagnostics.Debug.WriteLine(e);
-                }
-            }
+            //foreach (var dbContext in _initializedDbContexts.Values) {
+            //    try {
+            //        dbContext.Dispose();
+            //    } catch (Exception e) {
+            //        System.Diagnostics.Debug.WriteLine(e);
+            //    }
+            //}
 
             _initializedDbContexts.Clear();
             _disposed = true;
